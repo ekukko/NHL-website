@@ -154,7 +154,12 @@ footer {
 
 /* Responsiivisuus */
 
-
+/* Puhelimet (alle 600px leveät näytöt) */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column; /* Vaihdetaan pystyyn */
+        align-items: center; /* Keskitetään sisältö */
+    }
 
 /* Tabletit */
 @media (max-width: 900px) {
