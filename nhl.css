@@ -33,6 +33,11 @@ body {
     flex: 1; /* Työntää footerin alas */
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .calendar-box {
     padding: 20px;
    
