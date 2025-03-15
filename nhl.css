@@ -24,10 +24,12 @@ body {
     display: flex;
     align-items: center;
     padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .content {
-    flex: 1; /* Tyˆnt‰‰ footerin alas */
+    flex: 1; /* Ty√∂nt√§√§ footerin alas */
 }
 
 .calendar-box {
@@ -88,7 +90,7 @@ body {
 }
 
 .active {
-    color: #000; /* Aktiivinen v‰lilehti siniseksi */
+    color: #000; /* Aktiivinen v√§lilehti siniseksi */
     font-weight: bold;
 }
 
@@ -105,7 +107,7 @@ nav {
 }
 
 .navbar {
-    width: 100%; /* Menubaarin leveys t‰ytt‰‰ koko sivun leveyden */
+    width: 100%; /* Menubaarin leveys t√§ytt√§√§ koko sivun leveyden */
     justify-content: center;
     display: flex;
     padding: 20px;
@@ -113,9 +115,9 @@ nav {
 
 table {
     width: 100%; /* Taulukon leveys */
-    border-collapse: collapse; /* Yhdist‰‰ solujen rajat */
+    border-collapse: collapse; /* Yhdist√§√§ solujen rajat */
     margin: auto;
-    table-layout:auto ; /* Solujen leveys m‰‰r‰ytyy sis‰llˆn mukaan */
+    table-layout:auto ; /* Solujen leveys m√§√§r√§ytyy sis√§ll√∂n mukaan */
 }
 
 .nav-links {
@@ -147,13 +149,13 @@ footer {
 /* Responsiivisuus */
 @media (min-width: 768px) {
     .container {
-        width: 100%; /* Leveys 70% n‰ytˆn leveydest‰ */
+        width: 100%; /* Leveys 70% n√§yt√∂n leveydest√§ */
     }
 }
 
-/* Tyylit, kun n‰yttˆ on v‰hint‰‰n 1024px leve‰ (desktop-n‰ytˆt) */
+/* Tyylit, kun n√§ytt√∂ on v√§hint√§√§n 1024px leve√§ (desktop-n√§yt√∂t) */
 @media (min-width: 1024px) {
     .container {
-        width: 60%; /* Leveys 60% n‰ytˆn leveydest‰ */
+        width: 60%; /* Leveys 60% n√§yt√∂n leveydest√§ */
     }
 }
