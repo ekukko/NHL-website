@@ -159,6 +159,13 @@ footer {
     }
 }
 
+/* Tabletit */
+@media (max-width: 900px) {
+    .box {
+        width: 100%;
+    }
+}
+
 /* Tyylit, kun näyttö on vähintään 1024px leveä (desktop-näytöt) */
 @media (min-width: 1024px) {
     .container {
