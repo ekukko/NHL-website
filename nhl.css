@@ -153,6 +153,12 @@ footer {
     }
 }
 
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
 /* Tyylit, kun näyttö on vähintään 1024px leveä (desktop-näytöt) */
 @media (min-width: 1024px) {
     .container {
