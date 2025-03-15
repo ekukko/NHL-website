@@ -147,11 +147,6 @@ footer {
 }
 
 /* Responsiivisuus */
-@media (min-width: 768px) {
-    .container {
-        width: 100%; /* Leveys 70% näytön leveydestä */
-    }
-}
 
 @media (max-width: 600px) {
     .container {
