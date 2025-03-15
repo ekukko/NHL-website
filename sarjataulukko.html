@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>National Hockey League</title>
+    <link rel="stylesheet" href="nhl.css">
+
+    
+        <div class="navbar-box">
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="uutiset.html">Uutiset</a></li>
+                    <li><a href="tulokset.html">Tulokset</a></li>
+                    <li><a href="tilastot.html">Tilastot</a></li>
+                    <li><a href="sarjataulukko.html">Sarjataulukko</a></li>
+                    <li><a href="otteluohjelma.html">Otteluohjelma</a></li>
+                </ul>
+            </nav>
+        </div>
+
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    let currentUrl = window.location.pathname.split("/").pop(); // Hakee nykyisen sivun tiedostonimen
+                    let links = document.querySelectorAll(".nav-links a");
+
+                    links.forEach(link => {
+                        if (link.getAttribute("href") === currentUrl) {
+                            link.classList.add("active");
+                        }
+                    });
+                });
+            </script>
+
+            <style>  
+            
+
+                th {
+                    padding: 10px;
+                    text-align: left;
+                }
+
+                td {
+                    padding: 10px;
+                    text-align: left;
+                }
+
+                .red {
+                    background-color: #dae8fc; 
+                }
+
+                .Gray {
+                    background-color: #f5f5f5;
+                }
+            </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <table>
+            
+            <tr>
+                <th class="red">Sijoitus</th>
+                <th class="red">Joukkue</th>
+                <th class="red">Pelatut pelit</th>
+                <th class="red">Voitot</th>
+                <th class="red">Häviöt</th>
+                <th class="red">Pisteet</th>
+
+            </tr>
+            <tr>
+                <td class="Gray">1</td>
+                <td class="Gray">Winnipeg Jets</td>
+                <td class="Gray"></td>
+                <td class="Gray"></td>
+                <td class="Gray"></td>
+                <td class="Gray"></td>
+            </tr>
+            <tr>
+                <td class="red">2</td>
+                <td class="red">Washington Capitals</td>
+                <td class="red"></td>
+                <td class="red"></td>
+                <td class="red"></td>
+                <td class="red"></td>
+            </tr>
+            <tr>
+                <td class="Gray">3</td>
+                <td class="Gray">Dallas Stars</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+            </tr>
+            <tr>
+                <td class="red">4</td>
+                <td class="red">Carolina Hurricanes</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+            </tr>
+            <tr>
+                <td class="Gray">5</td>
+                <td class="Gray">Colorado Avalanche</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">>d</td>
+            </tr>
+            <tr>
+                <td class="red">6</td>
+                <td class="red">Florida Panthers</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+            </tr>
+            <tr>
+                <td class="Gray">7</td>
+                <td class="Gray">Vegas Golden Knights</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+            </tr>
+            <tr>
+
+                <td class="red">8</td>
+                <td class="red">Toronto Maple Leafs</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+            </tr>
+            <tr>
+                <td class="Gray">9</td>
+                <td class="Gray">Edmonton Oilers</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+            </tr>
+            <tr>
+                <td class="red">10</td>
+                <td class="red">Tampa Bay Lightning</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+            </tr>
+            <tr>
+                <td class="Gray">11</td>
+                <td class="Gray">Los Angeles Kings</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+            </tr>
+            <tr>
+                <td class="red">12</td>
+                <td class="red">Ottawa Senators</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+            </tr>
+            <tr>
+                <td class="Gray">13</td>
+                <td class="Gray">Minnesota Wild</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+            </tr>
+            <tr>
+                <td class="red">14</td>
+                <td class="red">Boston Bruins</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+            </tr>
+            <tr>
+                <td class="Gray">15</td>
+                <td class="Gray">New Jersey Devils</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+            </tr>
+            <tr>
+
+                <td class="red">16</td>
+                <td class="red">Montreal Canadiens</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+            </tr>
+            <tr>
+                <td class="Gray">17</td>
+                <td class="Gray">Detroit Red Wings</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+            </tr>
+            <tr>
+                <td class="red">18</td>
+                <td class="red">New York Islanders</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+            </tr>
+            <tr>
+                <td class="Gray">19</td>
+                <td class="Gray">New York Rangers</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+            </tr>
+            <tr>
+                <td class="red">20</td>
+                <td class="red">Columbus Blue Jackets</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+            </tr>
+            <tr>
+                <td class="Gray">21</td>
+                <td class="Gray">Philadelphia Flyers</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+            </tr>
+            <tr>
+                <td class="red">22</td>
+                <td class="red">St.Louis Blues</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+            </tr>
+            <tr>
+                <td class="Gray">23</td>
+                <td class="Gray">Seattle Kraken</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+            </tr>
+            <tr>
+
+                <td class="red">24</td>
+                <td class="red">Nashville Predators</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+            </tr>
+            <tr>
+                <td class="Gray">15</td>
+                <td class="Gray">Galcary Flames</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+            </tr>
+            <tr>
+                <td class="red">26</td>
+                <td class="red">Sanjose Sharks</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+            </tr>
+            <tr>
+                <td class="Gray">27</td>
+                <td class="Gray">Chicago Blackhawks</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+            </tr>
+            <tr>
+                <td class="red">28</td>
+                <td class="red">Vancouver Canucks</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+            </tr>
+            <tr>
+                <td class="Gray">29</td>
+                <td class="Gray">Anaheim Ducks</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+            </tr>
+            <tr>
+                <td class="red">30</td>
+                <td class="red">Pittsburhg Penguins</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+            </tr>
+            <tr>
+                <td class="Gray">31</td>
+                <td class="Gray">Buffalo Sabres</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+                <td class="Gray">d</td>
+            </tr>
+            <tr>
+                <td class="red">32</td>
+                <td class="red">Utah Hockey Club</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+                <td class="red">d</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <footer>
+        <p>Esimerkkikatu 9, 70100 Kuopio</p>
+    </footer>
+</body>
+</html>

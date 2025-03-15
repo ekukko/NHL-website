@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>National Hockey League</title>
+    <link rel="stylesheet" href="nhl.css">
+</head>
+
+<div class="navbar-box">
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="uutiset.html">Uutiset</a></li>
+            <li><a href="tulokset.html">Tulokset</a></li>
+            <li><a href="tilastot.html">Tilastot</a></li>
+            <li><a href="sarjataulukko.html">Sarjataulukko</a></li>
+            <li><a href="otteluohjelma.html">Otteluohjelma</a></li>
+        </ul>
+    </nav>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let currentUrl = window.location.pathname.split("/").pop(); // Hakee nykyisen sivun tiedostonimen
+        let links = document.querySelectorAll(".nav-links a");
+
+        links.forEach(link => {
+            if (link.getAttribute("href") === currentUrl) {
+                link.classList.add("active");
+            }
+        });
+    });
+</script>
+
+<style>
+
+    th {
+        padding: 10px;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    .red {
+        background-color: #dae8fc;
+    }
+
+    .Gray {
+        background-color: #f5f5f5;
+    }
+</style>
+
+<body>
+    <div class="calendar-box">
+
+        <div class="calendar">
+            <div class="calendar-header">
+                <button onclick="prevMonth()">&#9665;</button>
+                <h3 id="monthYear"></h3>
+                <button onclick="nextMonth()">&#9655;</button>
+            </div>
+
+            <div class="day ma" id="calendarDays">
+                <div class="day-name">MA</div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <table>
+
+            <tr>
+
+                <th class="red">Lopputulos</th>
+
+            </tr>
+            <tr>
+                <td class="Gray">Winnipeg Jets - Colorado Avalanche </td>
+
+
+            </tr>
+            <tr>
+
+                <td class="red">Washington Capitals</td>
+
+            <tr>
+            </tr>
+            <tr>
+
+                <td class="Gray">Winnipeg Jets</td>
+
+            </tr>
+            <tr>
+
+                <td class="red">Washington Capitals</td>
+
+            </tr>
+
+            <tr>
+
+                <td class="Gray">Winnipeg Jets</td>
+
+            </tr>
+            <tr>
+
+                <td class="red">Washington Capitals</td>
+
+            </tr>
+            <tr>
+
+                <td class="Gray">Winnipeg Jets</td>
+
+            </tr>
+            <tr>
+
+                <td class="red">Washington Capitals</td>
+
+            </tr>
+            <tr>
+
+                <td class="Gray">Washington Capitals</td>
+            </tr>
+            <tr>
+
+                <td class="red">Washington Capitals</td>
+
+            </tr>
+            <tr>
+
+                <td class="Gray">Winnipeg Jets</td>
+
+            </tr>
+            <tr>
+
+                <td class="red">Washington Capitals</td>
+
+            </tr>
+            <tr>
+
+                <td class="Gray">Winnipeg Jets</td>
+
+            </tr>
+            <tr>
+
+                <td class="red">Washington Capitals</td>
+
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <p>&copy; 2025 National Hockey League. Kaikki oikeudet pidätetään.</p>
+    </footer>
+</body>
+</html>
+

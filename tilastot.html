@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>National Hockey League</title>
+    <link rel="stylesheet" href="nhl.css">
+
+    <body>
+        <header>
+            <div class="navbar-box">
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li><a href="uutiset.html">Uutiset</a></li>
+                        <li><a href="tulokset.html">Tulokset</a></li>
+                        <li><a href="tilastot.html">Tilastot</a></li>
+                        <li><a href="sarjataulukko.html">Sarjataulukko</a></li>
+                        <li><a href="otteluohjelma.html">Otteluohjelma</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    let currentUrl = window.location.pathname.split("/").pop(); // Hakee nykyisen sivun tiedostonimen
+                    let links = document.querySelectorAll(".nav-links a");
+
+                    links.forEach(link => {
+                        if (link.getAttribute("href") === currentUrl) {
+                            link.classList.add("active");
+                        }
+                    });
+                });
+            </script>
+
+            <style>
+
+                .table-container {
+                    width: 80%;
+                    height: 880px;
+                    overflow-y: auto;
+                    margin: auto;
+                    table-layout: fixed;
+                    padding: 20px;
+                }
+                th {
+                    padding: 10px;
+                    text-align: left;
+                }
+
+                td {
+                    padding: 10px;
+                    text-align: left;
+                }
+
+             
+                .red {
+                    background-color: #dae8fc; /* Vaaleanpunainen */
+                }
+
+                .Gray {
+                    background-color: #f5f5f5;
+                }
+
+            </style>
+</head>
+
+<div class="table-container">
+    
+    <table>
+        
+        <tr>
+            <th class="red"> Pelaaja</th>
+            <th class="red"> Joukkue</th>
+            <th class="red">Ottelut</th>
+            <th class="red">Maalit</th>
+            <th class="red">Syötöt</th>
+            <th class="red">Pisteet</th>
+
+        </tr>
+        <tr>
+            <td class="Gray">Connor McDavid</td>
+            <td class="Gray">Edmonton Oilers</td>
+            <td class="Gray">60</td>
+            <td class="Gray">60</td>
+            <td class="Gray">66</td>
+            <td class="Gray">66</td>
+
+        </tr>
+        <tr>
+            <td class="red">Nathan MacKinnon</td>
+            <td class="red"></td>
+            <td class="red"</td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+
+        </tr>
+        <tr>
+            <td class="Gray">Nikita Kutcherov</td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+
+        </tr>
+        <tr>
+            <td class="red">Auston Matthews</td>
+            <td class="red"></td>
+            <td class="red"</td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+
+        </tr>
+        <tr>
+            <td class="Gray">Kirill Kaprizov</td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+
+        </tr>
+        <tr>
+            <td class="red">Mikko Rantanen</td>
+            <td class="red"></td>
+            <td class="red"</td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+
+        </tr>
+        <tr>
+            <td class="Gray">Leon Draisaitl</td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+
+        </tr>
+        <tr>
+            <td class="red">Dylan Larkin</td>
+            <td class="red"></td>
+            <td class="red"</td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+
+        </tr>
+        <tr>
+            <td class="Gray">Jesper Bratt</td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+
+        </tr>
+        <tr>
+            <td class="red">Mitch Marner</td>
+            <td class="red"></td>
+            <td class="red"</td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+
+        </tr>
+        <tr>
+            <td class="Gray">Kevin Fiala</td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+
+        </tr>
+        <tr>
+            <td class="red">Cale Makar</td>
+            <td class="red"></td>
+            <td class="red"</td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+
+        </tr>
+        <tr>
+            <td class="Gray">William Nylander</td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+
+        </tr>
+        <tr>
+            <td class="red">Brayden Point</td>
+            <td class="red"></td>
+            <td class="red"</td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+        </tr>
+        <tr>
+            <td class="Gray">Alexander Ovechkin</td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+        </tr>
+        <tr>
+            <td class="red">Brad Marchand</td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+        </tr>
+        <tr>
+            <td class="Gray">Sidney Crosby</td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+
+        </tr>
+        <tr>
+            <td class="red">Sebastian Aho</td>
+            <td class="red"></td>
+            <td class="red"</td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+        </tr>
+        <tr>
+            <td class="Gray">Adrian Kempe</td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+        </tr>
+        <tr>
+            <td class="red">Quinn Hughes</td>
+            <td class="red"></td>
+            <td class="red"</td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+        </tr>
+        <tr>
+            <td class="Gray">Jack Hughes</td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+
+<tr>
+            <td class="red">Trevor Zegras</td>
+            <td class="red"></td>
+            <td class="red"</td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+        </tr>
+<tr>
+    <td class="Gray"></td>
+    <td class="Gray"></td>
+    <td class="Gray"></td>
+    <td class="Gray"></td>
+    <td class="Gray"></td>
+    <td class="Gray"></td>
+
+</tr>
+        <tr>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"</td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+        </tr>
+        <tr>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+        </tr>
+        <tr>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"</td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+
+        </tr>
+        <tr>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+        </tr>
+        <tr>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"</td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+        </tr>
+        <tr>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+        </tr>
+        <tr>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"</td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+        </tr>
+        <tr>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+        </tr>
+        <tr>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"</td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+        </tr>
+        <tr>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+            <td class="Gray"></td>
+        </tr>
+        <tr>
+            <th class="red"> </th>
+            <th class="red"> </th>
+            <th class="red"></th>
+            <th class="red"></th>
+            <th class="red"> </th>
+            <th class="red"></th>
+        </tr>
+    </table>
+</div>
+
+     <footer>
+         <p>&copy; 2025 National Hockey League. Kaikki oikeudet pidätetään.</p>
+     </footer>
+</body>
+</html>
+
