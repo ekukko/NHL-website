@@ -32,7 +32,6 @@ body {
 }
 
 p {
-p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,15 +99,18 @@ footer {
 
 
 }
-@media (max-width: 600px) {
+@media (min-width: 768px) {
+    .container {
+        width: 100%; /* Leveys 70% näytön leveydestä */
+    }
+}
 
-    .menu {
-        display: none; /* Piilota iso valikko mobiilissa */
+/* Tyylit, kun näyttö on vähintään 1024px leveä (desktop-näytöt) */
+@media (min-width: 1024px) {
+    .container {
+        width: 60%; /* Leveys 60% näytön leveydestä */
     }
 
-    .mobile-menu {
-        display: block; /* Näytä mobiilivalikko */
-    }
 }
 }
 }
