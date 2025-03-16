@@ -109,4 +109,13 @@ footer {
     .container {
         width: 60%; /* Leveys 60% näytön leveydestä */
     }
+    @media (max-width: 768px) {
+    .item {
+        width: 100%; /* Pienillä näytöillä yksi elementti per rivi */
+    }
+}
+    @media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
 }
