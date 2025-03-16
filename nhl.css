@@ -4,7 +4,6 @@
     font-family: Arial, sans-serif;
 }
 
-
 body {
     background: url('icehockey.png') no-repeat center center fixed;
     background-size: 100%;
@@ -57,7 +56,6 @@ body {
     align-items: center;
     
 }
-
 
 .day ma {
     display: grid;
