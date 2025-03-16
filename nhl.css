@@ -31,12 +31,12 @@ body {
 }
 
 p {
-background-color: #f5f5f5;
-    color: black;
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     text-align: center;
-    padding: 20px;
-    width: 100%;
-    margin-top: 20px;
 }
 
 .active {
