@@ -13,7 +13,7 @@ body {
     margin: auto;
     justify-content: center;
     align-items: center;
-  height: 100%;  /* Varmistaa, että body täyttää koko näytön */
+  
 }
 
 .container {
