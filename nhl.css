@@ -28,20 +28,8 @@ body {
     flex: 1; /* Työntää footerin alas */
 }
 
-.news-box {
-   display: grid;
-    place-items: center;
-    height: 100vh;
-    margin: 0;
-    text-align: center;
-}
-
-.news-title {
-    display: grid;
-    place-items: center;
-    height: 100vh;
-    margin: 0;
-    text-align: center;
+p {
+text-align: center;
 }
 
 .active {
