@@ -25,7 +25,6 @@ body {
     display: flex;
     align-items: center;
     padding: 20px;
-    flex-wrap: wrap;
 }
 
 .content {
@@ -112,6 +111,7 @@ nav {
     justify-content: center;
     display: flex;
     padding: 20px;
+   
 }
 
 table {
@@ -149,18 +149,10 @@ footer {
 
 /* Responsiivisuus */
 
-/* Puhelimet (alle 600px leveät näytöt) */
-@media (max-width: 600px) {
+/* Responsiivisuus */
+@media (min-width: 768px) {
     .container {
-        flex-direction: column; /* Vaihdetaan pystyyn */
-        align-items: center; /* Keskitetään sisältö */
-         font-size: 0.9rem; /* Pienempi fontti puhelimille */
-    }
-
-/* Tabletit */
-@media (max-width: 900px) {
-    .box {
-        width: 100%;
+        width: 100%; /* Leveys 70% näytön leveydestä */
     }
 }
 
