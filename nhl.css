@@ -20,16 +20,12 @@ body {
 
 .container {
     width: 100%;
-    margin: 0 auto;
+    margin:  auto;
     display: flex;
     align-items: center;
     padding: 20px;
 }
-.container {
-   
-    width: 90%; /* Skaalautuu pienillä näytöillä */
-    margin: auto;
-}
+
 
 .content {
     flex: 1; 
