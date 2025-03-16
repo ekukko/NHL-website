@@ -97,18 +97,9 @@ footer {
     margin-top: 20px;
 }
 
-/* Responsiivisuus */
-@media (min-width: 768px) {
-    .container {
-        width: 100%; /* Leveys 70% näytön leveydestä */
-    }
-  
-}
-
-/* Tyylit, kun näyttö on vähintään 1024px leveä (desktop-näytöt) */
 @media (min-width: 1024px) {
     .container {
-        width: 60%; /* Leveys 60% näytön leveydestä */
+        width: 60%;
     }
 
 }
@@ -116,4 +107,12 @@ footer {
     body {
         font-size: 16px;
     }
+        @media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+    }
+}
 }
