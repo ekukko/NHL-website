@@ -104,16 +104,4 @@ footer {
     }
 
 }
-    @media (max-width: 600px) {
-    body {
-        font-size: 16px;
-    }
-        @media (max-width: 768px) {
-    .menu {
-        display: none;
-    }
-    .mobile-menu {
-        display: block;
-    }
-}
 }
