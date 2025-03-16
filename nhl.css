@@ -29,15 +29,19 @@ body {
 }
 
 .news-box {
-    align-items: center;
-    margin: 0 auto;
-     text-align: center;
+   display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
 }
 
 .news-title {
-    align-items: center;
-    margin: 0 auto;
-     text-align: center;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
 }
 
 .active {
