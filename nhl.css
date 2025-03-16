@@ -28,6 +28,10 @@ body {
     flex: 1; /* Työntää footerin alas */
 }
 
+.news-box {
+    align-items: center;
+}
+
 .active {
     color: #000; /* Aktiivinen välilehti siniseksi */
     font-weight: bold;
