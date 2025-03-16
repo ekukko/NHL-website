@@ -27,7 +27,7 @@ body {
 }
 
 .content {
-    flex: 1; /* Työntää footerin alas */
+    flex: 1; 
 }
 
 p {
@@ -40,7 +40,7 @@ background-color: #f5f5f5;
 }
 
 .active {
-    color: #000; /* Aktiivinen välilehti siniseksi */
+    color: #000; 
     font-weight: bold;
 }
 
@@ -57,7 +57,7 @@ nav {
 }
 
 .navbar {
-    width: 100%; /* Menubaarin leveys täyttää koko sivun leveyden */
+    width: 100%; 
     justify-content: center;
     display: flex;
     padding: 20px;
@@ -65,9 +65,9 @@ nav {
 
 table {
     width: 100%; /* Taulukon leveys */
-    border-collapse: collapse; /* Yhdistää solujen rajat */
+    border-collapse: collapse;
     margin: auto;
-    table-layout:auto ; /* Solujen leveys määräytyy sisällön mukaan */
+    table-layout:auto ; 
 }
 
 .nav-links {
@@ -78,11 +78,12 @@ table {
         margin-left: 30px;
         
     }
+
     .nav-links a {
-        
         font-size: 1.2rem;
         padding:10px;
     }
+
         .nav-links a:hover {
            font-weight:bold;
         }
