@@ -110,6 +110,23 @@ footer {
         width: 60%; /* Leveys 60% näytön leveydestä */
     }
 }
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
 
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .menu {
+        display: none; /* Piilota iso valikko mobiilissa */
+    }
+
+    .mobile-menu {
+        display: block; /* Näytä mobiilivalikko */
+    }
+}
 }
 }
