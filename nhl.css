@@ -98,10 +98,18 @@ footer {
     margin-top: 20px;
 }
 
+@media (min-width: 768px) {
+    .container {
+        width: 100%; /* Leveys 70% näytön leveydestä */
+    }
+}
+
+/* Tyylit, kun näyttö on vähintään 1024px leveä (desktop-näytöt) */
 @media (min-width: 1024px) {
     .container {
-        width: 100%;
+        width: 60%; /* Leveys 60% näytön leveydestä */
     }
+}
 
 }
 }
