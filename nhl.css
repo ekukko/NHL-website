@@ -107,6 +107,6 @@ footer {
 /* Tyylit, kun näyttö on vähintään 1024px leveä (desktop-näytöt) */
 @media (min-width: 1024px) {
     .container {
-        width: 100%; /* Leveys 60% näytön leveydestä */
+        width: 60%; /* Leveys 60% näytön leveydestä */
     }
 }
