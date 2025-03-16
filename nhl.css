@@ -102,9 +102,7 @@ footer {
     .container {
         width: 100%; /* Leveys 70% näytön leveydestä */
     }
-     .item {
-        width: 100%; /* Pienillä näytöillä yksi elementti per rivi */
-    }
+  
 }
 
 /* Tyylit, kun näyttö on vähintään 1024px leveä (desktop-näytöt) */
