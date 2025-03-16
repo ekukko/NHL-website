@@ -13,8 +13,7 @@ body {
     margin: 0;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-   
+  height: 100%;  /* Varmistaa, että body täyttää koko näytön */
 }
 
 .container {
@@ -23,6 +22,7 @@ body {
     display: flex;
     align-items: center;
     padding: 20px;
+    min-height: 100vh;
 }
 
 
@@ -63,7 +63,7 @@ nav {
 }
 
 table {
-    width: 100%; /* Taulukon leveys */
+    width: 100%; 
     border-collapse: collapse;
     margin: auto;
     table-layout:auto ; 
