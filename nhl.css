@@ -9,7 +9,7 @@ body {
     background-size: 100%;
     color: #000;
     width: 100%;
-    margin: 0;
+    margin: auto;
     justify-content: center;
     align-items: center;
   height: 100%;  /* Varmistaa, että body täyttää koko näytön */
