@@ -102,6 +102,9 @@ footer {
     .container {
         width: 100%; /* Leveys 70% näytön leveydestä */
     }
+     .item {
+        width: 100%; /* Pienillä näytöillä yksi elementti per rivi */
+    }
 }
 
 /* Tyylit, kun näyttö on vähintään 1024px leveä (desktop-näytöt) */
@@ -109,10 +112,7 @@ footer {
     .container {
         width: 60%; /* Leveys 60% näytön leveydestä */
     }
-    @media (max-width: 768px) {
-    .item {
-        width: 100%; /* Pienillä näytöillä yksi elementti per rivi */
-    }
+
 }
     @media (max-width: 600px) {
     body {
