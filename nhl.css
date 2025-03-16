@@ -34,6 +34,12 @@ body {
      text-align: center;
 }
 
+.news-title {
+    align-items: center;
+    margin: 0 auto;
+     text-align: center;
+}
+
 .active {
     color: #000; /* Aktiivinen välilehti siniseksi */
     font-weight: bold;
