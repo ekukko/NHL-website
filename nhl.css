@@ -12,18 +12,19 @@ body {
     color: #000;
     width: 100%;
     margin: auto;
-    
+    display: flex;
     align-items: center;
-  
+   min-height: 100vh;
 }
 
 .container {
-    width: 100%;
+    width: 90%;
     margin:  auto;
     display: flex;
     align-items: center;
     padding: 20px;
     min-height: 100vh;
+    max-width: 1200px;
 }
 
 
