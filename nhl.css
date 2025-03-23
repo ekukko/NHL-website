@@ -31,7 +31,7 @@
             padding: 20px;
         }
         .navbar-box {
-            background-color: rgba(0, 0, 0, 0.8);
+            background-color: #d;
             width: 100%;
             padding: 15px 0;
         }
@@ -54,7 +54,7 @@
         }
         .nav-links a:hover, .nav-links a.active {
             font-weight: bold;
-            color: #ffcc00;
+            color: #000;
         }
         .hamburger {
             display: none;
