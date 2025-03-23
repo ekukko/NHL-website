@@ -14,7 +14,7 @@
             box-sizing: border-box;
             font-family: Arial, sans-serif;
         }
-        body {
+        html, body {
             background: url('icehockey.png') no-repeat center center fixed;
             background-size: cover;
             color: #000;
@@ -23,6 +23,7 @@
             align-items: center;
             min-height: 100vh;
             text-align: center;
+            width: 100%;
         }
         .container {
             width: 90%;
