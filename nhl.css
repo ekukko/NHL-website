@@ -84,9 +84,7 @@
             .nav-links.active {
                 display: flex;
             }
-            .hamburger {
-                display: block;
-            }
+           
         }
     </style>
 </head>
