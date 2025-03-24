@@ -32,7 +32,7 @@
         }
         .navbar-box {
             width: 100%;
-            
+            background-color:#dae8fc;
         }
         .navbar {
             display: flex;
@@ -66,6 +66,7 @@
             padding: 20px;
             width: 100%;
             margin-top: auto;
+            background-color:#dae8fc;
         }
         @media (max-width: 768px) {
             .nav-links {
